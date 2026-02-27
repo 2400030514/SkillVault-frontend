@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom globals */
+body {
+  @apply bg-gradient-dashboard;
+}
+
+/* glassmorphism card */
+.card {
+  @apply bg-white/10 backdrop-blur-md rounded-lg shadow-lg p-4;
+}
